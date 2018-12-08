@@ -1,8 +1,36 @@
-hiiiii
-hiiiii
-hiiiii
-hiiiii
-hiiiii
-sai
-sai
-sai
+command for moving into C drive
+================================
+cd /c
+command for list all the files inside the C drive
+==================================================
+ls
+command for moving into folder
+===============================
+cd foldername/
+
+TO CLONE GIT REPO INTO OUR FOLDER IN MACHINE WE HAVE TO GIVE BELOW COMMANDS
+============================================================================
+git --version
+the above command is for displaying current version of GIT we installed in our machine
+git config --global user.name "sai0590"
+the above command is set user name for GIT repo
+git config --global user.email saikrishnapaluvadi90@gmail.com
+the above command is set email for GIT repo
+git clone https://github.com/sai0590/TestingGIT.git
+after completion of above commands then we have clone GIT url from the GIT repo. After entering above command the project is cloned to our machine
+
+TO PUSH FILE TO GIT REPO FROM MACHINE
+========================================
+git add filename
+ex:git add testing.txt
+to upload file to GIT repo first we have to add the file.After adding of the file we have to commit the file. 
+
+git commit -m "write comments" filename
+commit command used for add fle to local machine
+
+git push -u origin master
+the above command push file to GIT repo
+
+TO PULL FILE FROM GIT REPO
+===========================
+git pull
